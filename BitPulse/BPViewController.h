@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface BPViewController : UIViewController
+@interface BPViewController : UIViewController <UITextViewDelegate, ADBannerViewDelegate>
+- (IBAction)invertRates:(id)sender;
+- (IBAction)currencySelected:(UIButton *)sender;
 
 @end

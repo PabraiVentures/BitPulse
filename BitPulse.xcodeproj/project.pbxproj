@@ -21,6 +21,17 @@
 		ECDC809119BFCDC300C11478 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC807319BFCDC200C11478 /* UIKit.framework */; };
 		ECDC809919BFCDC300C11478 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECDC809719BFCDC300C11478 /* InfoPlist.strings */; };
 		ECDC809B19BFCDC300C11478 /* BitPulseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC809A19BFCDC300C11478 /* BitPulseTests.m */; };
+		ECDC80A619BFCF1E00C11478 /* BPBTCPriceFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC80A519BFCF1E00C11478 /* BPBTCPriceFetcher.m */; };
+		ECDC80AC19BFDCE400C11478 /* brit_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80A719BFDCE400C11478 /* brit_circle.png */; };
+		ECDC80AD19BFDCE400C11478 /* china.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80A819BFDCE400C11478 /* china.png */; };
+		ECDC80AE19BFDCE400C11478 /* eu_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80A919BFDCE400C11478 /* eu_circle.png */; };
+		ECDC80AF19BFDCE400C11478 /* japan_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80AA19BFDCE400C11478 /* japan_circle.png */; };
+		ECDC80B019BFDCE400C11478 /* us_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80AB19BFDCE400C11478 /* us_circle.png */; };
+		ECDC80B219BFE2C000C11478 /* switch.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80B119BFE2C000C11478 /* switch.png */; };
+		ECDC80B419BFFBDA00C11478 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC80B319BFFBDA00C11478 /* iAd.framework */; };
+		ECDC80B819C004CB00C11478 /* bppng58.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80B519C004CB00C11478 /* bppng58.png */; };
+		ECDC80B919C004CB00C11478 /* bppng80.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80B619C004CB00C11478 /* bppng80.png */; };
+		ECDC80BA19C004CB00C11478 /* bppng120.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDC80B719C004CB00C11478 /* bppng120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,18 @@
 		ECDC809619BFCDC300C11478 /* BitPulseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitPulseTests-Info.plist"; sourceTree = "<group>"; };
 		ECDC809819BFCDC300C11478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECDC809A19BFCDC300C11478 /* BitPulseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitPulseTests.m; sourceTree = "<group>"; };
+		ECDC80A419BFCF1E00C11478 /* BPBTCPriceFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPBTCPriceFetcher.h; sourceTree = "<group>"; };
+		ECDC80A519BFCF1E00C11478 /* BPBTCPriceFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPBTCPriceFetcher.m; sourceTree = "<group>"; };
+		ECDC80A719BFDCE400C11478 /* brit_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brit_circle.png; sourceTree = "<group>"; };
+		ECDC80A819BFDCE400C11478 /* china.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = china.png; sourceTree = "<group>"; };
+		ECDC80A919BFDCE400C11478 /* eu_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eu_circle.png; sourceTree = "<group>"; };
+		ECDC80AA19BFDCE400C11478 /* japan_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japan_circle.png; sourceTree = "<group>"; };
+		ECDC80AB19BFDCE400C11478 /* us_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us_circle.png; sourceTree = "<group>"; };
+		ECDC80B119BFE2C000C11478 /* switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch.png; sourceTree = "<group>"; };
+		ECDC80B319BFFBDA00C11478 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		ECDC80B519C004CB00C11478 /* bppng58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bppng58.png; sourceTree = "<group>"; };
+		ECDC80B619C004CB00C11478 /* bppng80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bppng80.png; sourceTree = "<group>"; };
+		ECDC80B719C004CB00C11478 /* bppng120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bppng120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDC80B419BFFBDA00C11478 /* iAd.framework in Frameworks */,
 				ECDC807219BFCDC200C11478 /* CoreGraphics.framework in Frameworks */,
 				ECDC807419BFCDC200C11478 /* UIKit.framework in Frameworks */,
 				ECDC807019BFCDC200C11478 /* Foundation.framework in Frameworks */,
@@ -82,6 +106,8 @@
 		ECDC806319BFCDC200C11478 = {
 			isa = PBXGroup;
 			children = (
+				ECDC80A419BFCF1E00C11478 /* BPBTCPriceFetcher.h */,
+				ECDC80A519BFCF1E00C11478 /* BPBTCPriceFetcher.m */,
 				ECDC807519BFCDC200C11478 /* BitPulse */,
 				ECDC809419BFCDC300C11478 /* BitPulseTests */,
 				ECDC806E19BFCDC200C11478 /* Frameworks */,
@@ -101,6 +127,7 @@
 		ECDC806E19BFCDC200C11478 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECDC80B319BFFBDA00C11478 /* iAd.framework */,
 				ECDC806F19BFCDC200C11478 /* Foundation.framework */,
 				ECDC807119BFCDC200C11478 /* CoreGraphics.framework */,
 				ECDC807319BFCDC200C11478 /* UIKit.framework */,
@@ -126,6 +153,15 @@
 		ECDC807619BFCDC200C11478 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ECDC80B519C004CB00C11478 /* bppng58.png */,
+				ECDC80B619C004CB00C11478 /* bppng80.png */,
+				ECDC80B719C004CB00C11478 /* bppng120.png */,
+				ECDC80B119BFE2C000C11478 /* switch.png */,
+				ECDC80A719BFDCE400C11478 /* brit_circle.png */,
+				ECDC80A819BFDCE400C11478 /* china.png */,
+				ECDC80A919BFDCE400C11478 /* eu_circle.png */,
+				ECDC80AA19BFDCE400C11478 /* japan_circle.png */,
+				ECDC80AB19BFDCE400C11478 /* us_circle.png */,
 				ECDC807719BFCDC200C11478 /* BitPulse-Info.plist */,
 				ECDC807819BFCDC200C11478 /* InfoPlist.strings */,
 				ECDC807B19BFCDC200C11478 /* main.m */,
@@ -229,9 +265,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDC80AC19BFDCE400C11478 /* brit_circle.png in Resources */,
+				ECDC80B019BFDCE400C11478 /* us_circle.png in Resources */,
+				ECDC80AD19BFDCE400C11478 /* china.png in Resources */,
 				ECDC808819BFCDC200C11478 /* Images.xcassets in Resources */,
 				ECDC807A19BFCDC200C11478 /* InfoPlist.strings in Resources */,
+				ECDC80BA19C004CB00C11478 /* bppng120.png in Resources */,
 				ECDC808319BFCDC200C11478 /* Main.storyboard in Resources */,
+				ECDC80B819C004CB00C11478 /* bppng58.png in Resources */,
+				ECDC80B219BFE2C000C11478 /* switch.png in Resources */,
+				ECDC80B919C004CB00C11478 /* bppng80.png in Resources */,
+				ECDC80AF19BFDCE400C11478 /* japan_circle.png in Resources */,
+				ECDC80AE19BFDCE400C11478 /* eu_circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECDC808619BFCDC200C11478 /* BPViewController.m in Sources */,
+				ECDC80A619BFCF1E00C11478 /* BPBTCPriceFetcher.m in Sources */,
 				ECDC808019BFCDC200C11478 /* BPAppDelegate.m in Sources */,
 				ECDC807C19BFCDC200C11478 /* main.m in Sources */,
 			);
@@ -375,7 +421,6 @@
 		ECDC809F19BFCDC300C11478 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitPulse/BitPulse-Prefix.pch";
@@ -388,7 +433,6 @@
 		ECDC80A019BFCDC300C11478 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitPulse/BitPulse-Prefix.pch";
