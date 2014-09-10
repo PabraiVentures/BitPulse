@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECDC807019BFCDC200C11478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC806F19BFCDC200C11478 /* Foundation.framework */; };
+		ECDC807219BFCDC200C11478 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC807119BFCDC200C11478 /* CoreGraphics.framework */; };
+		ECDC807419BFCDC200C11478 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC807319BFCDC200C11478 /* UIKit.framework */; };
+		ECDC807A19BFCDC200C11478 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECDC807819BFCDC200C11478 /* InfoPlist.strings */; };
+		ECDC807C19BFCDC200C11478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC807B19BFCDC200C11478 /* main.m */; };
+		ECDC808019BFCDC200C11478 /* BPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC807F19BFCDC200C11478 /* BPAppDelegate.m */; };
+		ECDC808319BFCDC200C11478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDC808119BFCDC200C11478 /* Main.storyboard */; };
+		ECDC808619BFCDC200C11478 /* BPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC808519BFCDC200C11478 /* BPViewController.m */; };
+		ECDC808819BFCDC200C11478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDC808719BFCDC200C11478 /* Images.xcassets */; };
+		ECDC808F19BFCDC300C11478 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC808E19BFCDC200C11478 /* XCTest.framework */; };
+		ECDC809019BFCDC300C11478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC806F19BFCDC200C11478 /* Foundation.framework */; };
+		ECDC809119BFCDC300C11478 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDC807319BFCDC200C11478 /* UIKit.framework */; };
+		ECDC809919BFCDC300C11478 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECDC809719BFCDC300C11478 /* InfoPlist.strings */; };
+		ECDC809B19BFCDC300C11478 /* BitPulseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC809A19BFCDC300C11478 /* BitPulseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECDC809219BFCDC300C11478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDC806419BFCDC200C11478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDC806B19BFCDC200C11478;
+			remoteInfo = BitPulse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECDC806C19BFCDC200C11478 /* BitPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDC806F19BFCDC200C11478 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECDC807119BFCDC200C11478 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECDC807319BFCDC200C11478 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECDC807719BFCDC200C11478 /* BitPulse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitPulse-Info.plist"; sourceTree = "<group>"; };
+		ECDC807919BFCDC200C11478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECDC807B19BFCDC200C11478 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECDC807D19BFCDC200C11478 /* BitPulse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BitPulse-Prefix.pch"; sourceTree = "<group>"; };
+		ECDC807E19BFCDC200C11478 /* BPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		ECDC807F19BFCDC200C11478 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
+		ECDC808219BFCDC200C11478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECDC808419BFCDC200C11478 /* BPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPViewController.h; sourceTree = "<group>"; };
+		ECDC808519BFCDC200C11478 /* BPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPViewController.m; sourceTree = "<group>"; };
+		ECDC808719BFCDC200C11478 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECDC808D19BFCDC200C11478 /* BitPulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitPulseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDC808E19BFCDC200C11478 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECDC809619BFCDC300C11478 /* BitPulseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitPulseTests-Info.plist"; sourceTree = "<group>"; };
+		ECDC809819BFCDC300C11478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECDC809A19BFCDC300C11478 /* BitPulseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitPulseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDC806919BFCDC200C11478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDC807219BFCDC200C11478 /* CoreGraphics.framework in Frameworks */,
+				ECDC807419BFCDC200C11478 /* UIKit.framework in Frameworks */,
+				ECDC807019BFCDC200C11478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDC808A19BFCDC200C11478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDC808F19BFCDC300C11478 /* XCTest.framework in Frameworks */,
+				ECDC809119BFCDC300C11478 /* UIKit.framework in Frameworks */,
+				ECDC809019BFCDC300C11478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDC806319BFCDC200C11478 = {
+			isa = PBXGroup;
+			children = (
+				ECDC807519BFCDC200C11478 /* BitPulse */,
+				ECDC809419BFCDC300C11478 /* BitPulseTests */,
+				ECDC806E19BFCDC200C11478 /* Frameworks */,
+				ECDC806D19BFCDC200C11478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDC806D19BFCDC200C11478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC806C19BFCDC200C11478 /* BitPulse.app */,
+				ECDC808D19BFCDC200C11478 /* BitPulseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDC806E19BFCDC200C11478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC806F19BFCDC200C11478 /* Foundation.framework */,
+				ECDC807119BFCDC200C11478 /* CoreGraphics.framework */,
+				ECDC807319BFCDC200C11478 /* UIKit.framework */,
+				ECDC808E19BFCDC200C11478 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECDC807519BFCDC200C11478 /* BitPulse */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC807E19BFCDC200C11478 /* BPAppDelegate.h */,
+				ECDC807F19BFCDC200C11478 /* BPAppDelegate.m */,
+				ECDC808119BFCDC200C11478 /* Main.storyboard */,
+				ECDC808419BFCDC200C11478 /* BPViewController.h */,
+				ECDC808519BFCDC200C11478 /* BPViewController.m */,
+				ECDC808719BFCDC200C11478 /* Images.xcassets */,
+				ECDC807619BFCDC200C11478 /* Supporting Files */,
+			);
+			path = BitPulse;
+			sourceTree = "<group>";
+		};
+		ECDC807619BFCDC200C11478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC807719BFCDC200C11478 /* BitPulse-Info.plist */,
+				ECDC807819BFCDC200C11478 /* InfoPlist.strings */,
+				ECDC807B19BFCDC200C11478 /* main.m */,
+				ECDC807D19BFCDC200C11478 /* BitPulse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECDC809419BFCDC300C11478 /* BitPulseTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC809A19BFCDC300C11478 /* BitPulseTests.m */,
+				ECDC809519BFCDC300C11478 /* Supporting Files */,
+			);
+			path = BitPulseTests;
+			sourceTree = "<group>";
+		};
+		ECDC809519BFCDC300C11478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC809619BFCDC300C11478 /* BitPulseTests-Info.plist */,
+				ECDC809719BFCDC300C11478 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDC806B19BFCDC200C11478 /* BitPulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDC809E19BFCDC300C11478 /* Build configuration list for PBXNativeTarget "BitPulse" */;
+			buildPhases = (
+				ECDC806819BFCDC200C11478 /* Sources */,
+				ECDC806919BFCDC200C11478 /* Frameworks */,
+				ECDC806A19BFCDC200C11478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPulse;
+			productName = BitPulse;
+			productReference = ECDC806C19BFCDC200C11478 /* BitPulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECDC808C19BFCDC200C11478 /* BitPulseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDC80A119BFCDC300C11478 /* Build configuration list for PBXNativeTarget "BitPulseTests" */;
+			buildPhases = (
+				ECDC808919BFCDC200C11478 /* Sources */,
+				ECDC808A19BFCDC200C11478 /* Frameworks */,
+				ECDC808B19BFCDC200C11478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDC809319BFCDC300C11478 /* PBXTargetDependency */,
+			);
+			name = BitPulseTests;
+			productName = BitPulseTests;
+			productReference = ECDC808D19BFCDC200C11478 /* BitPulseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDC806419BFCDC200C11478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nathan Pabrai";
+				TargetAttributes = {
+					ECDC808C19BFCDC200C11478 = {
+						TestTargetID = ECDC806B19BFCDC200C11478;
+					};
+				};
+			};
+			buildConfigurationList = ECDC806719BFCDC200C11478 /* Build configuration list for PBXProject "BitPulse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECDC806319BFCDC200C11478;
+			productRefGroup = ECDC806D19BFCDC200C11478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDC806B19BFCDC200C11478 /* BitPulse */,
+				ECDC808C19BFCDC200C11478 /* BitPulseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDC806A19BFCDC200C11478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDC808819BFCDC200C11478 /* Images.xcassets in Resources */,
+				ECDC807A19BFCDC200C11478 /* InfoPlist.strings in Resources */,
+				ECDC808319BFCDC200C11478 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDC808B19BFCDC200C11478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDC809919BFCDC300C11478 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDC806819BFCDC200C11478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDC808619BFCDC200C11478 /* BPViewController.m in Sources */,
+				ECDC808019BFCDC200C11478 /* BPAppDelegate.m in Sources */,
+				ECDC807C19BFCDC200C11478 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDC808919BFCDC200C11478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDC809B19BFCDC300C11478 /* BitPulseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECDC809319BFCDC300C11478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDC806B19BFCDC200C11478 /* BitPulse */;
+			targetProxy = ECDC809219BFCDC300C11478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECDC807819BFCDC200C11478 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDC807919BFCDC200C11478 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECDC808119BFCDC200C11478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDC808219BFCDC200C11478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDC809719BFCDC300C11478 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDC809819BFCDC300C11478 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECDC809C19BFCDC300C11478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECDC809D19BFCDC300C11478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECDC809F19BFCDC300C11478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitPulse/BitPulse-Prefix.pch";
+				INFOPLIST_FILE = "BitPulse/BitPulse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECDC80A019BFCDC300C11478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitPulse/BitPulse-Prefix.pch";
+				INFOPLIST_FILE = "BitPulse/BitPulse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECDC80A219BFCDC300C11478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BitPulse.app/BitPulse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitPulse/BitPulse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BitPulseTests/BitPulseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECDC80A319BFCDC300C11478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BitPulse.app/BitPulse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitPulse/BitPulse-Prefix.pch";
+				INFOPLIST_FILE = "BitPulseTests/BitPulseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDC806719BFCDC200C11478 /* Build configuration list for PBXProject "BitPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDC809C19BFCDC300C11478 /* Debug */,
+				ECDC809D19BFCDC300C11478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDC809E19BFCDC300C11478 /* Build configuration list for PBXNativeTarget "BitPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDC809F19BFCDC300C11478 /* Debug */,
+				ECDC80A019BFCDC300C11478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECDC80A119BFCDC300C11478 /* Build configuration list for PBXNativeTarget "BitPulseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDC80A219BFCDC300C11478 /* Debug */,
+				ECDC80A319BFCDC300C11478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDC806419BFCDC200C11478 /* Project object */;
+}
